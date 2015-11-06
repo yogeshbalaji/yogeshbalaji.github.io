@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>Yogesh Balaji - Projects</title>
+<title>Yogesh Balaji - Internships</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection, tv" />
 <link rel="stylesheet" href="css/style-print.css" type="text/css" media="print" />
@@ -48,42 +48,16 @@
           <h2 id="cont">Projects</h2>
             <p>
              <font size="3">Qualcomm Research, San Diego, USA</font> <br> 
-              I was the only student from India selected for summer internship at Qualcomm Research, San Diego. In the span of three months, I  </p>
+              I was the only student from India selected for summer internship at Qualcomm Research, San Diego. Here, I worked under my manager Aleksandar Damnjanovic guided by my mentor Qingsi Wang. LTE usage in unlicensed spectrum provides immense benefits as spectrum comes free of cost. But, when used this way, it would interfere with WiFi, Blurtooth and other technologies that operate in this regime. To handle this issue, we set out to develop MAC layer algorithms that would enable fair coexistence between LTE-U and WiFi (predominant user of unlicensed spectrum). We carried out intense system simulations and worked out theoretical bounds to quantify the performance of our developed algorithms.   </p>
                
             
             <p>
-             <font size="3">Augmented Reality</font> <br> 
-               Augmented reality is a live direct or an indirect view of real world where some objects are supplemented by computer software. In this project, we detect a known pattern (which can also be a known image) from live video stream and replace it with another video. The demo video below shows one such experiment where a pattern in newspaper was replaced, which created the effect of newspapers in Harry Potter series. <br>
+             <font size="3">Dhvani research, IIT Madras Research Park</font> <br> 
                
-               Contributors: Yogesh Balaji, Sabyasachi Shivkumar, Akshay Gadre </p>
-            
-            <p>
-             <font size="3">FIRA (Robot Soccer) - Computer Vision Module</font> <br> 
-               I was a part of team "Sahas" - team from IIT-Madras pariticipating in Federation of International Robot-soccer Assosiation (FIRA) contest. As a part of Computer Vision module, I built a system that performs automatic dynamic calibration of colours in varying lighting conditions. I also helped build some path planning strategies for the players in the game. <br>
                
                </p>
             
-            <p>
-             <font size="3">Virtual Lab</font> <br> 
-               This project was motivated by the lack of online laboratory courses. There are several online platforms like coursera, MIT OCW and NPTEL which targets theory courses. But, there are no laboratory courses available for online learning. So, this project involved making a GUI for virtually building circuits, solving them and examining the outputs. We built the circuit for components exhibting linear behaviour. We also extended it to IC's where datasheets were scanned to encode element behaviours. <br>
-               
-               Contributors: Yogesh Balaji, Sabyasachi Shivkumar, Santhosh Kumar Ramakrishnan
-               </p>
-            
-            <p>
-             <font size="3">Salient Object Detection</font> <br> 
-               In the vision literature, visual saliency depicts the distinctive percentual quality that makes some items stand out and grab our attention. Detection of salient objects is very useful in vision tasks like segmentation and object detection. The goal of this project was to predict the saliency map and to segment out foreground regions from background. We implemented a discriminative bottom-up feature integration approach to learn the salient regions. Foreground regions were extracted by feeding the predicted salience map to Grab Cut algorithm. This step preserved good edges during foreground extraction.  <br>
-               
-               Contributors: Yogesh Balaji, Santhosh Kumar Ramakrishnan
-               </p>
-            
-            <p>
-             <font size="3">Spell Check</font> <br> 
-                  <br>
-               In this project, we developed a spell check application that detects and corrects mistakes in the given text. First part of the project involved Context free spell check, where words that are not found in the dictionary were detected and relevant suggestions were made. We implemented this as a Noisy channel model (noise modelled as edit distance) with speed boosting using pruned tries. In the second part, we implemented Context Sensitive spell check, where the words out of context were detected and suggestions made. This was implemented using a Bayesian classifier with context words and collocations as features.
-               Contributors: Yogesh Balaji, Santhosh Kumar Ramakrishnan, J.P.Sagar
-               </p>
-            
+                        
             
                
                
