@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>Simple Personal</title>
+<title>Yogesh Balaji - Projects</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection, tv" />
 <link rel="stylesheet" href="css/style-print.css" type="text/css" media="print" />
@@ -34,9 +34,9 @@
       <h3>MENU</h3>
       <a href="#skip-menu" class="hidden">Skip menu</a>
       <ul class="menu">
-        <li><a href="../index.html" class="active">Home</a></li>
-        <li><a href="#cont">Projects</a></li>
-        <li><a href="http://all-free-download.com/free-website-templates/">Portfolio</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#cont" class="active">Projects</a></li>
+        <li><a href="../internships/index.html">Internships</a></li>
         <li class="last"><a href="http://all-free-download.com/free-website-templates/">Contact</a></li>
       </ul>
     </div>
@@ -77,6 +77,15 @@
                
                Contributors: Yogesh Balaji, Santhosh Kumar Ramakrishnan
                </p>
+            
+            <p>
+             <font size="3">Spell Check</font> <br> 
+                  <br>
+               In this project, we developed a spell check application that detects and corrects mistakes in the given text. First part of the project involved Context free spell check, where words that are not found in the dictionary were detected and relevant suggestions were made. We implemented this as a Noisy channel model (noise modelled as edit distance) with speed boosting using pruned tries. In the second part, we implemented Context Sensitive spell check, where the words out of context were detected and suggestions made. This was implemented using a Bayesian classifier with context words and collocations as features.
+               Contributors: Yogesh Balaji, Santhosh Kumar Ramakrishnan, J.P.Sagar
+               </p>
+            
+            
                
                
           

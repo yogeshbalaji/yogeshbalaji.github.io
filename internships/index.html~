@@ -35,8 +35,8 @@
       <a href="#skip-menu" class="hidden">Skip menu</a>
       <ul class="menu">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="#cont" class="active">Projects</a></li>
-        <li><a href="../internships/index.html">Internships</a></li>
+        <li><a href="../projects/index.html">Projects</a></li>
+        <li><a href="#cont" class="active">Internships</a></li>
         <li class="last"><a href="http://all-free-download.com/free-website-templates/">Contact</a></li>
       </ul>
     </div>
@@ -47,9 +47,8 @@
         <div class="box-in">
           <h2 id="cont">Projects</h2>
             <p>
-             <font size="3">Air hockey playing bot</font> <br> 
-               We developed a primitive robotic arm that plays air hockey with the opponent. The basic framework involved an overhead camera whose video feed was used to track the puck. The puck motion was used to estimate the position where the arm had to move so as to make the best hit. The arm was built using servo motors fitted with a pneumatic piston to shoot. We built the entire system (both hardware and software) at a cost less than 100$. A demo is shown below <br>
-               Contributors: Yogesh Balaji, Sabyasachi Shivkumar </p>
+             <font size="3">Qualcomm Research, San Diego, USA</font> <br> 
+              I was the only student from India selected for summer internship at Qualcomm Research, San Diego. In the span of three months, I  </p>
                
             
             <p>
