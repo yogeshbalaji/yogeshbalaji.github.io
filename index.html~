@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection, tv" />
 <link rel="stylesheet" href="css/style-print.css" type="text/css" media="print" />
 </head>
-<body>
+<body background = "img/edited2.png">
 <div id="wrapper">
   <div class="title">
     <div class="title-top">
@@ -34,9 +34,10 @@
       <h3>MENU</h3>
       <a href="#skip-menu" class="hidden">Skip menu</a>
       <ul class="menu">
-        <li><a href="#cont" class="active">Home</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="projects/index.html">Projects</a></li>
-        <li><a href="http://all-free-download.com/free-website-templates/">Portfolio</a></li>
+        <li><a href="internships/index.html">Internships</a></li>
+        <li><a href="cv/index.html">Curriculum Vitae</a></li>
         <li class="last"><a href="http://all-free-download.com/free-website-templates/">Contact</a></li>
       </ul>
     </div>
