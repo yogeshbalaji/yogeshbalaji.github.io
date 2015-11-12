@@ -6,7 +6,10 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection, tv" />
 <link rel="stylesheet" href="css/style-print.css" type="text/css" media="print" />
 </head>
-<body background = "img/edited2.png">
+<body>
+
+ 
+  
 <div id="wrapper">
   <div class="title">
     <div class="title-top">
@@ -28,6 +31,9 @@
       </div>
     </div>
   </div>
+   <div class="my-container">
+    <img src="img/edited.png">
+  </div>
   <hr class="noscreen" />
   <div class="content">
     <div class="column-left">
@@ -38,7 +44,7 @@
         <li><a href="projects/index.html">Projects</a></li>
         <li><a href="internships/index.html">Internships</a></li>
         <li><a href="cv/index.html">Curriculum Vitae</a></li>
-        <li class="last"><a href="http://all-free-download.com/free-website-templates/">Contact</a></li>
+        <li class="last"><a href="contact/index.html">Contact</a></li>
       </ul>
     </div>
     <div id="skip-menu"></div>
