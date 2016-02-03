@@ -30,9 +30,6 @@
     </div>
   </div>
   
-  <div class="my-container">
-    <img src="img/edited.png">
-  </div>
 
   <hr class="noscreen" />
   <div class="content">
@@ -102,7 +99,7 @@
             
             <p>
              <font size="3"><b>Salient Object Detection</b></font> <br> 
-               In the vision literature, visual saliency depicts the distinctive percentual quality that makes some items stand out and grab our attention. Detection of salient objects is very useful in vision tasks like segmentation and object detection. The goal of this project was to predict the saliency map and to segment out foreground regions from background. We implemented a discriminative bottom-up feature integration approach to learn the salient regions. Foreground regions were extracted by feeding the predicted salience map to Grab Cut algorithm. This step preserved good edges during foreground extraction.  <br>
+               In the vision literature, visual saliency depicts the distinctive percentual quality that makes some items stand out and grab our attention. Detection of salient objects is very useful in vision tasks like segmentation and object detection. The goal of this project was to predict the saliency map and to segment out foreground regions from background. We implemented a discriminative bottom-up feature integration approach to learn the salient regions. Foreground regions were extracted by feeding the predicted salience map to Grab Cut algorithm. This step preserved good edges during foreground extraction. The description of our experiments can be found in <a href="reports/saliency.pdf" target="_blank">this report</a>  <br>
                
                Contributors: Yogesh Balaji, Santhosh Kumar Ramakrishnan
                </p>
@@ -110,10 +107,17 @@
             <p>
              <font size="3"><b>Spell Check</b></font> <br> 
                   <br>
-               In this project, we developed a spell check application that detects and corrects mistakes in the given text. First part of the project involved Context free spell check, where words that are not found in the dictionary were detected and relevant suggestions were made. We implemented this as a Noisy channel model (noise modelled as edit distance) with speed boosting using pruned tries. In the second part, we implemented Context Sensitive spell check, where the words out of context were detected and suggestions made. This was implemented using a Bayesian classifier with context words and collocations as features.
+               In this project, we developed a spell check application that detects and corrects mistakes in the given text. First part of the project involved Context free spell check, where words that are not found in the dictionary were detected and relevant suggestions were made. We implemented this as a Noisy channel model (noise modelled as edit distance) with speed boosting using pruned tries. In the second part, we implemented Context Sensitive spell check, where the words out of context were detected and suggestions made. This was implemented using a Bayesian classifier with context words and collocations as features. The report of this project can be found <a href="reports/spell_check.pdf" target="_blank">this report</a>
                Contributors: Yogesh Balaji, Santhosh Kumar Ramakrishnan, J.P.Sagar
                </p>
-             
+            
+            <p>
+             <font size="3"><b>Statistical Machine Translation</b></font> <br> 
+                  <br>
+               In this project, implemented a system that translates French sentences to English. Having IBM Model 1 and Model 2 as baseline models, we show improvements on these by experimenting on different alignment techniques. We also propose an efficient generative model that enables us to generate translated sentences using the learnt alignment and translation probabilities. Interesting results that we obtained are summarised in <a href="reports/mt.pdf" target="_blank">this report</a>
+               Contributors: Yogesh Balaji, Santhosh Kumar Ramakrishnan, J.P.Sagar
+               </p>
+               
             
             <p>
              <font size="3"><b>Hackathons and Competitions</b></font> <br> 
