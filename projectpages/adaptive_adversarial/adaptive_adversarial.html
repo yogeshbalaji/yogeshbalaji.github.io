@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+  <title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta property="og:image" content="adaptive_adversarial_title.png"/>
+<meta property="og:title" content="Instance adaptive adversarial training: Improved accuracy tradeoffs in neural nets" />
+
+<!--<script src="lib.js" type="text/javascript"></script>-->
+<!--<script src="popup.js" type="text/javascript"></script>-->
+
+<!--<script type="text/javascript">-->
+<!--// redefining default features-->
+<!--var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,status=1';-->
+<!--</script>-->
+
+<link media="all" href="glab.css" type="text/css" rel="StyleSheet">
+<style type="text/css" media="all">
+IMG {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FLOAT: right;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+#primarycontent {
+    MARGIN-LEFT: auto; ; WIDTH: expression(document.body.clientWidth >
+1000? "1000px": "auto" ); MARGIN-RIGHT: auto; TEXT-ALIGN: left; max-width:
+1000px }
+BODY {
+    TEXT-ALIGN: center
+}
+</style>
+
+<meta content="MSHTML 6.00.2800.1400" name="GENERATOR"><script src="b5m.js" id="b5mmain" type="text/javascript"></script></head>
+
+<body>
+
+<div id="primarycontent">
+<center><h1> Instance adaptive adversarial training: <br> Improved accuracy tradeoffs in neural nets </h1></center>
+<center><h3><a href="http://www.cs.umd.edu/~yogesh/">Yogesh Balaji</a>&nbsp;&nbsp;&nbsp;
+  <a href="http://www.cs.umd.edu/~tomg/">Tom Goldstein</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.cc.gatech.edu/~judy/">Judy Hoffman</a></h3></center>
+<center><h3><a href="https://ai.facebook.com/">Facebook AI Research</a></h3></center>
+<center><h3><a href="https://arxiv.org/pdf/1910.08051.pdf">Paper</a> | <a href="adaptive_adversarial.html">PyTorch code</a> </h3></center>
+<center><img src="adaptive_adversarial_title.png" width="1000"> </center>
+<p></p>
+
+
+ <p>
+<h2>Abstract</h2>
+
+<div style="font-size:14px"><p align="justify"> Adversarial training is by far the most successful strategy for
+    improving robustness of neural networks to adversarial attacks. Despite its success as a defense mechanism,
+    adversarial training fails to generalize well to unperturbed test set. We hypothesize that this poor generalization
+    is a consequence of adversarial training with uniform perturbation radius around every training sample.
+    Samples close to decision boundary can be morphed into a different class under a small perturbation budget,
+    and enforcing large margins around these samples produce poor decision boundaries that generalize poorly.
+    Motivated by this hypothesis, we propose instance adaptive adversarial training -- a technique that enforces
+    sample-specific perturbation margins around every training sample. We show that using our approach, test accuracy
+    on unperturbed samples improve with a marginal drop in robustness. Extensive experiments on CIFAR-10, CIFAR-100 and
+    Imagenet datasets demonstrate the effectiveness of our proposed approach.
+</p></div>
+
+
+<h2>Paper</h2>
+<p><a href="https://arxiv.org/pdf/1910.08051.pdf">arxiv 1910.08051</a>,  2019. </p>
+
+
+
+<h2>Citation</h2>
+<p>Yogesh Balaji, Tom Goldstein, and Judy Hoffman. "Instance adaptive adversarial training:
+    Improved accuracy tradeoffs in neural nets", arXiv preprint arXiv:1910.08051
+<a href="adaptive.txt">Bibtex</a>
+</p>
+
+
+<h2>Code: <a href='adaptive_adversarial.html'>PyTorch (Coming soon)</a>
+<br>
+
+
+<!--<br>-->
+<!--<h2>Acknowledgement</h2>-->
+<!--<p align="justify">We thank Aaron Hertzmann, Shiry Ginosar, Deepak Pathak, Bryan Russell, Eli Shechtman, Richard Zhang, and Tinghui Zhou for many helpful comments. This work was supported in part by NSF SMA-1514512, NSF IIS-1633310, a Google Research Award, Intel Corp, and hardware donations from NVIDIA. JYZ is supported by the Facebook Graduate Fellowship, and TP is supported by the Samsung Scholarship. The photographs used in style transfer were taken by AE, mostly in France.</p>-->
+
+<div style="display:none">
+<script type="text/javascript" src="http://gostats.com/js/counter.js"></script>
+<script type="text/javascript">_gos='c3.gostats.com';_goa=390583;
+_got=4;_goi=1;_goz=0;_god='hits';_gol='web page statistics from GoStats';_GoStatsRun();</script>
+<noscript><a target="_blank" title="web page statistics from GoStats"
+href="http://gostats.com"><img alt="web page statistics from GoStats"
+src="http://c3.gostats.com/bin/count/a_390583/t_4/i_1/z_0/show_hits/counter.png"
+style="border-width:0" /></a></noscript>
+</div>
+</body></html
+>
+

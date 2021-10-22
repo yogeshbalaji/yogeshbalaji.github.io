@@ -1,0 +1,10 @@
+@article{Balaji2019adaptive,
+  author    = {Yogesh Balaji and
+               Tom Goldstein and
+               Judy Hoffman},
+  title     = {Instance adaptive adversarial training: Improved accuracy tradeoffs in neural nets},
+  journal   = {CoRR},
+  volume    = {abs/1910.08051},
+  year      = {2019},
+  url       = {https://arxiv.org/pdf/1910.08051.pdf}
+}

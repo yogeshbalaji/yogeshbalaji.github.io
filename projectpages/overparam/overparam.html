@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+  <title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta property="og:image" content="overparam_title.png"/>
+<meta property="og:title" content="Understanding Overparameterization in Generative Adversarial Networks" />
+
+<!--<script src="lib.js" type="text/javascript"></script>-->
+<!--<script src="popup.js" type="text/javascript"></script>-->
+
+<!--<script type="text/javascript">-->
+<!--// redefining default features-->
+<!--var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,status=1';-->
+<!--</script>-->
+
+<link media="all" href="glab.css" type="text/css" rel="StyleSheet">
+<style type="text/css" media="all">
+IMG {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FLOAT: right;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+#primarycontent {
+    MARGIN-LEFT: auto; ; WIDTH: expression(document.body.clientWidth >
+1000? "1000px": "auto" ); MARGIN-RIGHT: auto; TEXT-ALIGN: left; max-width:
+1000px }
+BODY {
+    TEXT-ALIGN: center
+}
+</style>
+
+<meta content="MSHTML 6.00.2800.1400" name="GENERATOR"><script src="b5m.js" id="b5mmain" type="text/javascript"></script></head>
+
+<body>
+
+<div id="primarycontent">
+<center><h1> Understanding Overparameterization in Generative Adversarial Networks </h1></center>
+<center><h3><a href="http://www.cs.umd.edu/~yogesh/">Yogesh Balaji*</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/mohammad-mahdi-sajedi-4921807b/?trk=public_profile_browsemap_profile-result-card_result-card_full-click">Mohammadmahdi Sajedi*</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://sites.google.com/umd.edu/nehakalibhat/">Neha Mukund Kalibhat</a>&nbsp;&nbsp;&nbsp;
+  <a href="http://www.cs.umd.edu/~mcding/">Mucong Ding</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://dominiksto.github.io/">Dominik Stoger</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://viterbi-web.usc.edu/~soltanol/">Mahdi Soltanolkotabi</a>&nbsp;&nbsp;&nbsp;
+  <a href="http://www.cs.umd.edu/~sfeizi/">Soheil Feizi</a></h3></center>
+
+<center><h3 style="color:#990000"><a>University of Maryland</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a>University of Southern California</a>  </h3></center>
+<center><h3><a href="https://openreview.net/pdf?id=C3qvk5IQIJY">Paper</a> | <a href="overparam.html">PyTorch code</a> </h3></center>
+<center><img src="overparam_title.png" width="1000"> </center>
+<p></p>
+
+
+ <p>
+<h2>Abstract</h2>
+
+<div style="font-size:14px"><p align="justify"> A broad class of unsupervised deep learning methods such as Generative Adversarial
+    Networks (GANs) involve training of overparameterized models where the number of parameters of the model exceeds a
+    certain threshold. Indeed, most successful GANs used in practice are trained using overparameterized generator and
+    discriminator networks, both in terms of depth and width. A large body of work in supervised learning have shown the
+    importance of model overparameterization in the convergence of the gradient descent (GD) to globally optimal solutions.
+    In contrast, the unsupervised setting and GANs in particular involve non-convex concave mini-max optimization problems
+    that are often trained using Gradient Descent/Ascent (GDA). The role and benefits of model overparameterization
+    in the convergence of GDA to a global saddle point in non-convex concave problems is far less understood.
+    In this work, we present a comprehensive analysis of the importance of model overparameterization in GANs
+    both theoretically and empirically. We theoretically show that in an overparameterized GAN model with a -layer
+    neural network generator and a linear discriminator, GDA converges to a global saddle point of the underlying
+    non-convex concave min-max problem. To the best of our knowledge, this is the first result for global convergence
+    of GDA in such settings. Our theory is based on a more general result that holds for a broader class of nonlinear
+    generators and discriminators that obey certain assumptions (including deeper generators and random feature
+    discriminators). Our theory utilizes and builds upon a novel connection with the convergence analysis of
+    linear time-varying dynamical systems which may have broader implications for understanding the convergence
+    behavior of GDA for non-convex concave problems involving overparameterized models. We also empirically study the
+    role of model overparameterization in GANs using several large-scale experiments on CIFAR-10 and Celeb-A datasets.
+    Our experiments show that overparameterization improves the quality of generated samples across various model
+    architectures and datasets. Remarkably, we observe that overparameterization leads to faster and more stable
+    convergence behavior of GDA across the board.
+</p></div>
+
+
+<h2>Paper</h2>
+<p><a href="https://openreview.net/pdf?id=C3qvk5IQIJY">Openreview</a> </p>
+
+
+
+<h2>Citation</h2>
+<p>Yogesh Balaji, Mohammadmahdi Sajedi, Neha Mukund Kalibhat, Mucong Ding, Dominik Stöger, Mahdi Soltanolkotabi, Soheil Feizi.
+    "Understanding Overparameterization in Generative Adversarial Networks", ICLR 2021.
+<a href="overparam.txt">Bibtex</a>
+</p>
+
+
+<h2>Code: <a href='overparam.html'>PyTorch (Coming soon)</a>
+<br>
+
+
+<!--<br>-->
+<!--<h2>Acknowledgement</h2>-->
+<!--<p align="justify">We thank Aaron Hertzmann, Shiry Ginosar, Deepak Pathak, Bryan Russell, Eli Shechtman, Richard Zhang, and Tinghui Zhou for many helpful comments. This work was supported in part by NSF SMA-1514512, NSF IIS-1633310, a Google Research Award, Intel Corp, and hardware donations from NVIDIA. JYZ is supported by the Facebook Graduate Fellowship, and TP is supported by the Samsung Scholarship. The photographs used in style transfer were taken by AE, mostly in France.</p>-->
+
+<div style="display:none">
+<script type="text/javascript" src="http://gostats.com/js/counter.js"></script>
+<script type="text/javascript">_gos='c3.gostats.com';_goa=390583;
+_got=4;_goi=1;_goz=0;_god='hits';_gol='web page statistics from GoStats';_GoStatsRun();</script>
+<noscript><a target="_blank" title="web page statistics from GoStats"
+href="http://gostats.com"><img alt="web page statistics from GoStats"
+src="http://c3.gostats.com/bin/count/a_390583/t_4/i_1/z_0/show_hits/counter.png"
+style="border-width:0" /></a></noscript>
+</div>
+</body></html
+>
+

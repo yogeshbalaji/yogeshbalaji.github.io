@@ -1,0 +1,11 @@
+@article{Balaji2019NW,
+  author    = {Yogesh Balaji and
+               Rama Chellappa and
+               Soheil Feizi},
+  title     = {Normalized Wasserstein Distance for Mixture Distributions with Applications
+               in Adversarial Learning and Domain Adaptation},
+  journal   = {CoRR},
+  volume    = {abs/1902.00415},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1902.00415}
+}
